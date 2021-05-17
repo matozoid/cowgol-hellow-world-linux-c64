@@ -2,7 +2,7 @@ COWGOLDIR=../cowgol
 FE=$(COWGOLDIR)/bin/cowfe-6502.lx386.lx386.exe
 BE=$(COWGOLDIR)/bin/cowbe-6502.lx386.lx386.exe
 LINKER=$(COWGOLDIR)/bin/cowlink-c64.lx386.lx386.exe
-AS=~/dev/tass64-code/64tass
+AS=64tass
 
 %.cob: %.cow
 	$(FE) -I$(COWGOLDIR)/ -I$(COWGOLDIR)/rt/ -I$(COWGOLDIR)/rt/c64/ $< $@
