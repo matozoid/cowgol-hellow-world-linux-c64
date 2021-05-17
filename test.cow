@@ -1,0 +1,5 @@
+include "cowgol.coh";
+
+loop
+  print("HELLO WORLD! ");
+end loop;
